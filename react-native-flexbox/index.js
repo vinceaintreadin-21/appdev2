@@ -2,6 +2,10 @@ import { registerRootComponent } from 'expo';
 
 import App from './App';
 import Flex from './styles/Flex';
+import FlexDirection from './styles/FlexDirection';
+import LayoutDirection from './styles/LayoutDirection';
+import JustifyContent from './styles/JustifyContent';
+import AlignItems from './styles/AlignItems';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
@@ -9,3 +13,16 @@ import Flex from './styles/Flex';
 
 //Flex
 registerRootComponent(Flex);
+
+
+//Flex Direction
+registerRootComponent(FlexDirection)
+
+//Layout Direction
+registerRootComponent(LayoutDirection)
+
+//Justify Content
+registerRootComponent(JustifyContent)
+
+//Align Items
+registerRootComponent(AlignItems)
