@@ -7,6 +7,7 @@ import LayoutDirection from './styles/LayoutDirection';
 import JustifyContent from './styles/JustifyContent';
 import AlignItems from './styles/AlignItems';
 import AlignSelf from './styles/AlignSelf';
+import AlignContent from './styles/AlignContent';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
@@ -30,3 +31,6 @@ registerRootComponent(AlignItems)
 
 //Align Self
 registerRootComponent(AlignSelf)
+
+//Align Content
+registerRootComponent(AlignContent)
