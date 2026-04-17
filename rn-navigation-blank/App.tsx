@@ -23,8 +23,8 @@ const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
   screens: {
     Home: HomeScreen,
-    Details: DetailsScreen,
   },
+  Details: DetailsScreen,
 });
 
 const Navigation = createStaticNavigation(RootStack);
