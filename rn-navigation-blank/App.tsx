@@ -10,6 +10,10 @@ import { Button } from '@react-navigation/elements';
 function HomeScreen() {
   const navigation = useNavigation();
 
+  // navigation.setParams({
+  //   itemId: Math.floor(Math.random() * 100),
+  // })
+
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
